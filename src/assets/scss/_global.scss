@@ -1,0 +1,26 @@
+input[type="text"] {
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 5px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 360px;
+  width: 100%;
+  margin: 0 auto;
+}
